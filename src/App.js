@@ -1,9 +1,12 @@
-import './App.css';
+import './css/normalize.css';
+import './css/App.css';
+import Header from './components/Header';
+import uuidv4 from 'uuid';
 
 function App() {
 	return (
 		<div className='App'>
-			<h1>Hello World</h1>
+			<Header />
 		</div>
 	);
 }

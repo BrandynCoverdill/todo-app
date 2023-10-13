@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'PaytoneOne';
+	src: url('../fonts/PaytoneOne-Regular.ttf');
+}
+
+header {
+	font-family: PaytoneOne;
+}
