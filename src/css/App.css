@@ -21,14 +21,58 @@ body {
 	background: var(--primaryBlue);
 }
 
+.bold {
+	font-weight: bold;
+}
+
+.flex {
+	display: flex;
+}
+
 header {
 	font-family: PaytoneOne;
 	text-align: center;
 	background: var(--primaryGreen);
 	padding-block: 0.5em;
 	color: #353238;
+	margin-block-end: 1em;
 }
 
 h1 {
 	user-select: none;
+}
+
+.card {
+	background: #fff;
+	padding: 0.5em;
+	box-shadow: 5px 5px #000;
+}
+
+.date-display {
+	margin-block-start: 0.5em;
+}
+
+.desc-display {
+	text-indent: 10px;
+	line-height: 1.25em;
+	font-size: 1.25em;
+}
+
+.close {
+	margin-block-end: 0.5em;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 1em;
+}
+
+.closeBtnDiv {
+	justify-content: right;
+}
+
+.task-list {
+	flex-wrap: nowrap;
+	flex-direction: column;
+	gap: 1em;
+	margin: 2em;
 }
